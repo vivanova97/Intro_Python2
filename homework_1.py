@@ -1,4 +1,5 @@
 import random
+from sys import hash_info
 
 '''
 Треугольник существует только тогда, когда сумма любых двух его сторон больше третьей.
@@ -85,3 +86,6 @@ def num_guessing_name():
         print(f'Sorry! You ran out of guesses. The number was {num}')
 
 # num_guessing_name()
+
+
+
