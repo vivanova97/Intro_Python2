@@ -1,7 +1,8 @@
 import fractions
 import re
 import math
-
+from fractions import Fraction
+from itertools import count
 
 '''
 ✔ Напишите программу, которая получает целое число и возвращает его шестнадцатеричное строковое представление. 
@@ -67,6 +68,85 @@ def multiply_fractions() -> str:
 
     return f'{int(product_1/gcd)}/{int(product_2/gcd)}'
 
+def sum_fractions() -> fractions.Fraction:
+    fraction_1 = check_fraction()
+    fraction_2 = check_fraction()
+    fraction_1, fraction_2 = list(map(int,fraction_1.split('/'))), list(map(int,fraction_2.split('/')))
+    return fractions.Fraction(*fraction_1) + fractions.Fraction(*fraction_2)
+
+# print(sum_fractions())
+
+
 
 # print(multiply_fractions())
 # print(fractions.Fraction(4,5) * fractions.Fraction(6,20))
+
+'''
+Задача 1. Нахождение наибольшего общего делителя (НОД) двух чисел
+
+How to Find the GCF Using Euclid's Algorithm
+
+'''
+
+
+def greatest_common_factor(num1: int, num2: int) -> int:
+
+    max_value, min_value = max(num1, num2), min(num1,num2)
+    remainder = max_value % min_value
+
+    while remainder != 0:
+       max_value, min_value = min_value, remainder
+       remainder = max_value % min_value
+
+    return min_value
+
+
+# greatest_common_factor(900, 15)
+
+'''
+Задача 3. Перевод целого числа в римское число
+Программа принимает целое число и возвращает его римское представление в виде строки.
+'''
+
+
+def int_to_roman(num):
+    # Define a mapping of Roman numerals
+    roman_numerals = [
+        (1000, 'M'),
+        (900, 'CM'),
+        (500, 'D'),
+        (400, 'CD'),
+        (100, 'C'),
+        (90, 'XC'),
+        (50, 'L'),
+        (40, 'XL'),
+        (10, 'X'),
+        (9, 'IX'),
+        (5, 'V'),
+        (4, 'IV'),
+        (1, 'I')
+    ]
+
+    result = ""
+
+    # Iterate through the numeral mappings
+    for value, symbol in roman_numerals:
+        # Append the symbol as many times as possible
+        while num >= value:
+            result += symbol
+            num -= value
+
+    return result
+
+# print(int_to_roman(567))
+
+
+
+
+
+
+
+
+
+
+
