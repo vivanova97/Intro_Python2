@@ -3,6 +3,9 @@ import re
 import math
 from fractions import Fraction
 from itertools import count
+from sys import hash_info, is_finalizing
+
+from homework_1 import num_guessing_name
 
 '''
 ✔ Напишите программу, которая получает целое число и возвращает его шестнадцатеричное строковое представление. 
@@ -139,7 +142,6 @@ def int_to_roman(num):
     return result
 
 # print(int_to_roman(567))
-
 
 
 
