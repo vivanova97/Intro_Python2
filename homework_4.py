@@ -10,6 +10,7 @@ import random
 """
 
 def add(num1: int | float, num2: int | float) -> int | float:
+    """Returns sum of two numbers"""
     return num1 + num2
 
 
@@ -155,7 +156,7 @@ def app():
 Сумма: 522 Сумма наоборот: 225
 """
 
-def numbers_reversed_added_reversed(num1: int, num2: int) -> int:
+def numbers_reversed_added_reversed_1(num1: int, num2: int) -> int:
     print(num1, num2)
     num1, num2 = int(str(num1)[::-1]), int(str(num2)[::-1])
     print(num1, num2)
@@ -163,7 +164,36 @@ def numbers_reversed_added_reversed(num1: int, num2: int) -> int:
     print(num_not_reversed)
     print(int(str(num_not_reversed)[::-1]))
 
-# numbers_reversed_added_reversed(156, 345)
+numbers_reversed_added_reversed_1(156, 345)
+
+def numbers_reversed_added_reversed_2(num1: int, num2:int) -> int:
+    num1_backwards = ''
+    num2_backwards = ''
+
+    print(num1, num2)
+
+    while num1:
+        num1, remainder1 = divmod(num1,10)
+        num1_backwards += str(remainder1)
+
+    num1_backwards = int(num1_backwards)
+
+    while num2:
+        num2, remainder2 = divmod(num2,10)
+        num2_backwards += str(remainder2)
+
+    num2_backwards = int(num2_backwards)
+    print(num1_backwards, num2_backwards)
+
+    num_sum = sum((num1_backwards,num2_backwards))
+    print(num_sum)
+
+    num_sum_backwards = str(num_sum)[::-1]
+    print(num_sum_backwards)
+
+numbers_reversed_added_reversed_2(156, 345)
+
+
 
 """
 Задача 4. Функция максимума
@@ -179,11 +209,13 @@ def numbers_reversed_added_reversed(num1: int, num2: int) -> int:
 при этом она должна использовать для сравнений первую функцию maximum_of_two.
 """
 def max_of_two(num1: int | float, num2: int | float) -> int | float:
+    """Returns max of two numbers."""
     if num1 > num2:
         return num1
     return num2
 
 def max_of_three(num1: int | float, num2: int | float, num3: int | float) -> int | float:
+    """Returns max of three numbers."""
     return max_of_two(max_of_two(num1, num2), num3)
 
 
