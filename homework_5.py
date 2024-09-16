@@ -4,10 +4,6 @@
 от 1 до N (1 ** 2, 2 ** 2, 3 ** 2 и так далее). Реализацию напишите двумя способами: функция-генератор и
 генераторное выражение.
 """
-from itertools import count
-from typing import Iterator
-
-from seminar_4 import sum_from_list
 
 
 def squared_numbers_gen(end_num: int, start_num: int=1) -> Iterator[int]: # Generator Function
