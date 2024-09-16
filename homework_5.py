@@ -5,6 +5,9 @@
 генераторное выражение.
 """
 
+from typing import Iterator
+
+
 
 def squared_numbers_gen(end_num: int, start_num: int=1) -> Iterator[int]: # Generator Function
     """Generates squared numbers from 1 to N"""
@@ -46,11 +49,12 @@ names_bonus_total = {name: salary * (int(bonus.strip('%'))*.01) for name, salary
 в которой каждое число является суммой двух предыдущих, начиная с 0 и 1.
 """
 def fibonacci_gen(n: int) -> Iterator[int]:
-        a, b = 0, 1
-        while n:
-            yield a
-            a, b = b, a + b
-            n -= 1
+    """Generates fibonacci numbers from 0 to n"""
+    a, b = 0, 1
+    while n:
+        yield a
+        a, b = b, a + b
+        n -= 1
 
 # print(*fibonacci_gen(10))
 
@@ -70,6 +74,7 @@ c
 """
 
 def substring_gen(text: str) -> Iterator[str]:
+    """Generates all possible substrings"""
     for start in range(len(text)):
         for end in range(start+1,len(text)+1):
             yield text[start:end]
