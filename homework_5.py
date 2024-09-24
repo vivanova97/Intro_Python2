@@ -8,7 +8,6 @@
 from typing import Iterator
 
 
-
 def squared_numbers_gen(end_num: int, start_num: int=1) -> Iterator[int]: # Generator Function
     """Generates squared numbers from 1 to N"""
     for i in range(start_num,end_num+1):

@@ -39,7 +39,7 @@ def date_exists(date: str) -> bool: # My solution
                 return _leap_year_check(year)
     return False
 
-def date_exists_GPT(date: str) -> bool: #ChatGPT solution
+def date_exists_gpt(date: str) -> bool: #ChatGPT solution
     """Checks if the date in DD.MM.YYYY format is valid."""
     min_year = 1
     max_year = 9999
@@ -71,4 +71,4 @@ def date_exists_GPT(date: str) -> bool: #ChatGPT solution
 
 if __name__ == '__main__':
     print(date_exists('30.12.2024'))
-    print(date_exists_GPT('30.12.2024'))
+    print(date_exists_gpt('30.12.2024'))

@@ -59,12 +59,12 @@ But if the year can be divided by 100 as well as four, it's not a leap year.
 However, if the year is divisible by 400, it is a leap year.
 '''
 
-# LEAP_YEAR_START = 1582
-# DIVISIBLE_BY_4 = 4
-# DIVISIBLE_BY_100 = 100
-# DIVISIBLE_BY_400 = 400
-# flag = True
-# year = None
+LEAP_YEAR_START = 1582
+DIVISIBLE_BY_4 = 4
+DIVISIBLE_BY_100 = 100
+DIVISIBLE_BY_400 = 400
+flag = True
+year = None
 #
 # while flag:
 #     year = int(input('Enter year: '))
@@ -81,12 +81,12 @@ However, if the year is divisible by 400, it is a leap year.
 #         print('Not leap year.')
 
 
-# if (year % DIVISIBLE_BY_4 == 0 and year % DIVISIBLE_BY_100 != 0) | year % DIVISIBLE_BY_400 == 0:
-#     print('Leap year.')
-# elif year % DIVISIBLE_BY_100 == 0 and year % DIVISIBLE_BY_400 != 0:
-#     print('Not leap year.')
-# else:
-#     print('Not leap year.')
+if (year % DIVISIBLE_BY_4 == 0 and year % DIVISIBLE_BY_100 != 0) | year % DIVISIBLE_BY_400 == 0:
+    print('Leap year.')
+elif year % DIVISIBLE_BY_100 == 0 and year % DIVISIBLE_BY_400 != 0:
+    print('Not leap year.')
+else:
+    print('Not leap year.')
 
 '''
 📌 Пользователь вводит число от 1 до 999. Используя операции с числами сообщите что введено: 
