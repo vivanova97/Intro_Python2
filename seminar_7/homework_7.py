@@ -1,3 +1,7 @@
+"""Homework for 7th Seminar"""
+
+__all__ = ['group_file_rename', 'delete_old_files', 'find_files_with_extension']
+
 import os
 import time
 from pathlib import Path
@@ -16,6 +20,7 @@ import shutil
 Например для диапазона [3, 6] берутся буквы с 3 по 6 из исходного имени файла. К ним прибавляется желаемое конечное имя,
 если оно передано. Далее счётчик файлов и расширение.
 """
+
 def group_file_rename(folder_path: str, serial_number_len: int, original_file_extension: str,
                       original_name_part: tuple[int,int]=None, new_name: str='', new_file_extension: str=None):
     """Renaming files in given folder
