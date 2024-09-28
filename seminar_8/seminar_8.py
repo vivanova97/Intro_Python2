@@ -1,6 +1,7 @@
 import csv
 import json
-
+import pickle
+from pathlib import Path
 
 """"
 📌 Вспоминаем задачу 3 из прошлого семинара. Мы сформировали текстовый файл с псевдо именами и произведением чисел.
@@ -97,9 +98,21 @@ def csv_to_json_using_csv_reader(csv_file_path: str, json_file_path: str):
 
 csv_to_json_using_csv_reader(csv_file_path='name_level_id.csv', json_file_path='name_level_id_2.json')
 
+"""📌 Напишите функцию, которая ищет json файлы в указанной директории и сохраняет их содержимое в виде одноимённых 
+pickle файлов."""
+
+def convert_all_json_to_pickle(directory_path: str):
+    for i, path in enumerate(Path(directory_path).rglob('*.json'),1):
+        with (
+            open(path, mode='r', encoding='utf-8') as json_f,
+            open(f'new_file{i}.pickle', mode='wb') as pickle_f
+        ):
+           temp_dict = json.load(json_f)
+           pickle.dump(temp_dict,pickle_f)
 
 
-# if __name__ == '__main__':
+if __name__ == '__main__':
+    convert_all_json_to_pickle(f'{Path().cwd()}')
     # txt_file_to_json()
     # add_to_json_file()
     # save_json_to_csv()

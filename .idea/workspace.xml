@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf815854-c5fb-4e75-8571-7441a5ba920c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminar_7/homework_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_7/homework_7.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf815854-c5fb-4e75-8571-7441a5ba920c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,42 +22,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.count_words.executor": "Run",
-    "Python.date_.executor": "Run",
-    "Python.guess_num.executor": "Run",
-    "Python.homework_1.executor": "Debug",
-    "Python.homework_2.executor": "Debug",
-    "Python.homework_3.executor": "Run",
-    "Python.homework_4.executor": "Run",
-    "Python.homework_5.executor": "Run",
-    "Python.homework_7.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.practice.executor": "Run",
-    "Python.remove_duplicate_consecutive_symbols.executor": "Run",
-    "Python.remove_duplicates.executor": "Run",
-    "Python.riddle.executor": "Run",
-    "Python.seminar1.executor": "Debug",
-    "Python.seminar_2.executor": "Debug",
-    "Python.seminar_3.executor": "Run",
-    "Python.seminar_4.executor": "Run",
-    "Python.seminar_5.executor": "Run",
-    "Python.seminar_6.executor": "Run",
-    "Python.seminar_8.executor": "Run",
-    "Python.unique_elements.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.count_words.executor&quot;: &quot;Run&quot;,
+    &quot;Python.date_.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guess_num.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.homework_2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.homework_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.remove_duplicate_consecutive_symbols.executor&quot;: &quot;Run&quot;,
+    &quot;Python.remove_duplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Python.riddle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seminar1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.seminar_2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.seminar_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seminar_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seminar_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seminar_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seminar_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unique_elements.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.seminar_8">
     <configuration name="homework_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testPythonProject" />
@@ -238,6 +234,7 @@
       <workItem from="1727138718135" duration="19568000" />
       <workItem from="1727349937569" duration="1000" />
       <workItem from="1727349997606" duration="15941000" />
+      <workItem from="1727393244107" duration="23000" />
     </task>
     <servers />
   </component>
