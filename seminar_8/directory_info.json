@@ -1,0 +1,107 @@
+[
+  {
+    "object": "directory_info.csv",
+    "parent directory": "seminar_8",
+    "file": true,
+    "directory": false,
+    "size": 529
+  },
+  {
+    "object": "name_level_id.csv",
+    "parent directory": "seminar_8",
+    "file": true,
+    "directory": false,
+    "size": 82
+  },
+  {
+    "object": "directory_info.pickle",
+    "parent directory": "seminar_8",
+    "file": true,
+    "directory": false,
+    "size": 541
+  },
+  {
+    "object": "name_level_id_2.json",
+    "parent directory": "seminar_8",
+    "file": true,
+    "directory": false,
+    "size": 630
+  },
+  {
+    "object": "new_dir",
+    "parent directory": "seminar_8",
+    "file": false,
+    "directory": true,
+    "size": 96
+  },
+  {
+    "object": "new_file1.csv",
+    "parent directory": "seminar_8",
+    "file": true,
+    "directory": false,
+    "size": 309
+  },
+  {
+    "object": "directory_info.json",
+    "parent directory": "seminar_8",
+    "file": true,
+    "directory": false,
+    "size": 1312
+  },
+  {
+    "object": "new_file2.csv",
+    "parent directory": "seminar_8",
+    "file": true,
+    "directory": false,
+    "size": 0
+  },
+  {
+    "object": "new_file1.pickle",
+    "parent directory": "seminar_8",
+    "file": true,
+    "directory": false,
+    "size": 316
+  },
+  {
+    "object": "homework_8.py",
+    "parent directory": "seminar_8",
+    "file": true,
+    "directory": false,
+    "size": 2554
+  },
+  {
+    "object": "name_level_id.json",
+    "parent directory": "seminar_8",
+    "file": true,
+    "directory": false,
+    "size": 176
+  },
+  {
+    "object": "seminar_8.py",
+    "parent directory": "seminar_8",
+    "file": true,
+    "directory": false,
+    "size": 7631
+  },
+  {
+    "object": "new_file.txt",
+    "parent directory": "new_dir",
+    "file": true,
+    "directory": false,
+    "size": 0
+  },
+  {
+    "object": "another _dir",
+    "parent directory": "new_dir",
+    "file": false,
+    "directory": true,
+    "size": 0
+  },
+  {
+    "object": "another_file.txt",
+    "parent directory": "another _dir",
+    "file": true,
+    "directory": false,
+    "size": 0
+  }
+]

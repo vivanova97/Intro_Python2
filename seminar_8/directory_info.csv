@@ -1,0 +1,16 @@
+object,parent directory,file,directory,size
+directory_info.csv,seminar_8,True,False,529
+name_level_id.csv,seminar_8,True,False,82
+directory_info.pickle,seminar_8,True,False,541
+name_level_id_2.json,seminar_8,True,False,630
+new_dir,seminar_8,False,True,96
+new_file1.csv,seminar_8,True,False,309
+directory_info.json,seminar_8,True,False,1312
+new_file2.csv,seminar_8,True,False,0
+new_file1.pickle,seminar_8,True,False,316
+homework_8.py,seminar_8,True,False,2554
+name_level_id.json,seminar_8,True,False,176
+seminar_8.py,seminar_8,True,False,7631
+new_file.txt,new_dir,True,False,0
+another _dir,new_dir,False,True,0
+another_file.txt,another _dir,True,False,0

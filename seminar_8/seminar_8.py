@@ -1,6 +1,7 @@
 import csv
 import json
 import pickle
+from imghdr import test_pbm
 from pathlib import Path
 
 """"
@@ -111,8 +112,43 @@ def convert_all_json_to_pickle(directory_path: str):
            pickle.dump(temp_dict,pickle_f)
 
 
+"""
+Задание No6
+📌 Напишите функцию, которая преобразует pickle файл хранящий список словарей в табличный csv файл.
+📌 Для тестированию возьмите pickle версию файла из задачи 4 этого семинара.
+📌 Функция должна извлекать ключи словаря для заголовков столбца из переданного файла.
+"""
+def convert_pickle_to_csv(pickle_file_path: str, csv_file_path: str):
+
+    with (
+        open(f'{pickle_file_path}', mode='rb') as pickle_f,
+        open(f'{csv_file_path}', mode='w', encoding='utf-8', newline='') as csv_f
+    ):
+        pickle_file_list = pickle.load(pickle_f)
+        csv_write = csv.DictWriter(csv_f, fieldnames=[key for key in pickle_file_list[0].keys()],
+                                   quoting=csv.QUOTE_NONNUMERIC)
+        csv_write.writeheader()
+        for dictionary in pickle_file_list:
+            csv_write.writerow(dictionary)
+
+
+"""
+Задание No7
+📌 Прочитайте созданный в прошлом задании csv файл без использования csv.DictReader.
+📌 Распечатайте его как pickle строку.
+"""
+def csv_to_pickle(csv_file_path: str):
+    with open(f'{csv_file_path}', mode='r', encoding='utf-8', newline='') as csv_f:
+        csv_read = csv.reader(csv_f, quoting=csv.QUOTE_NONNUMERIC)
+        csv_as_pickle_str = pickle.dumps([line for line in csv_read])
+        print(csv_as_pickle_str)
+
+
 if __name__ == '__main__':
-    convert_all_json_to_pickle(f'{Path().cwd()}')
+    pass
+    # convert_all_json_to_pickle(f'{Path().cwd()}')
+    # convert_pickle_to_csv('new_file1.pickle', 'new_file1.csv')
+    # csv_to_pickle('new_file1.csv')
     # txt_file_to_json()
     # add_to_json_file()
     # save_json_to_csv()
