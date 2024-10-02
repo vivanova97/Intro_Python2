@@ -5,8 +5,6 @@ from pathlib import Path
 import os
 
 
-
-
 def directory_info_json_csv_pickle(directory_path: str, json_path: str, csv_path: str, pickle_path: str):
     """
     Напишите функцию, которая получает на вход директорию и рекурсивно обходит её и все вложенные директории.
@@ -134,10 +132,26 @@ CSV файл содержит данные о книгах (название, 
 авторам, а книги каждого автора должны быть записаны как список.
 Пример: Из файла books.csv нужно создать файл books_by_author.json, где книги сгруппированы по авторам.
 """
+def csv_to_json(csv_path: str, json_path: str):
+    with(
+        open(csv_path, mode='r', encoding='utf-8', newline='') as csv_f,
+        open(json_path, mode='w', encoding='utf-8') as json_f
+    ):
+        csv_read = csv.DictReader(csv_f)
+        author_books = {}
+        for _, entry in enumerate(csv_read, start=1):
+            author = entry['author']
+            if author not in author_books:
+                author_books[author] = []
+            author_books[author].append(entry['title'])
+        json.dump(author_books, json_f, ensure_ascii=False, indent=3)
+
+
 
 if __name__ == '__main__':
-    aggregate_data_from_csv('/Users/valeriaivanova/Downloads/Module8/zad_4/sales.csv',
-                            f'{Path().cwd() / 'total_sales.csv'}')
+    # aggregate_data_from_csv('/Users/valeriaivanova/Downloads/Module8/zad_4/sales.csv',
+    #                         f'{Path().cwd() / 'total_sales.csv'}')
+    csv_to_json('books.csv', 'books_by_author.json')
 
     # directory_info_json_csv_pickle(directory_path=f'{Path().cwd()}', json_path=f'{Path().cwd() / 'directory_info.json'}',
     #                                csv_path=f'{Path().cwd() / 'directory_info.csv'}',
