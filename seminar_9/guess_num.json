@@ -1,0 +1,11 @@
+{
+  "(100, 2)": true,
+  "args=(100, 2), kwargs={}": {
+    "args": [
+      100,
+      2
+    ],
+    "kwargs": {},
+    "result": false
+  }
+}
