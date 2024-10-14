@@ -182,10 +182,54 @@ class Cell:
         else:
             raise CellNotAvailable('Error! Cell is already occupied.')
 
+    def clear_cell(self):
+       self.occupied = False
+       self.symbol = None
+
+
 
 class Board:
-    def __init__(self):
-        self.board = [[Cell(row, column) for row in range(3)] for column in range(3)]
+    def __init__(self, num_of_rows, num_of_columns):
+        self.num_of_rows = num_of_rows
+        self.num_of_columns = num_of_columns
+        self.board = [[Cell(row, column) for column in range(num_of_columns)] for row in range(num_of_rows)]
+        """# «Проверить окончание игры». Метод не получает входящих данных, но возвращает True/False. True — 
+        если один из игроков победил, False — если победителя нет."""
+
+    def display_board(self):
+        for row in self.board:
+            for item in row:
+                print(f"{item.symbol or ' '}", end='\t')
+            print()
+
+    def clear_board(self):
+        for row in self.board:
+            for cell in row:
+                cell.clear_cell()
+
+
+    def game_won(self):
+        # Check for horizontal wins
+        for row in self.board:
+            if row[0].symbol == row[1].symbol == row[2].symbol and row[0].symbol is not None:
+                return True
+
+        # Check for vertical wins
+        for col in range(3):
+            if (self.board[0][col].symbol == self.board[1][col].symbol == self.board[2][col].symbol) and self.board[2][col].symbol is not None:
+                return True
+
+        # Check for first diagonal (top-left to bottom-right)
+            if ((self.board[0][0].symbol == self.board[1][1].symbol == self.board[2][2].symbol) and self.board[0][0].symbol is not None):
+                return True
+
+        # Check for second diagonal (top-right to bottom-left)
+        if self.board[0][2].symbol == self.board[1][1].symbol == self.board[2][0].symbol and self.board[0][2].symbol is not None:
+            return True
+
+        # No win detected
+        return False
+
 
 
 """
@@ -210,7 +254,7 @@ class Player:
         min_column = 1
         max_column = 3
         while True:
-            cell_value = input("Enter row and column number separated by a comma (example: 1,3")
+            cell_value = input("Enter row and column number separated by a comma (example: 1,3): ")
             row, column = map(int,cell_value.strip().split(','))
             if not min_row <= row <= max_row or not min_column <= column <= max_column:
                 raise ValueError(f"Row should be between {min_row} - {max_row}, column should be between {min_column} - "
@@ -224,7 +268,8 @@ class Player:
                     return
 
 """class Game:
-# класс «Игры» содержит атрибуты: # состояние игры,
+# класс «Игры» содержит атрибуты:
+# состояние игры,
 # игроки,
 # поле.
 # А также методы:
@@ -235,18 +280,49 @@ class Player:
 # Основной метод запуска игр. В цикле запускает игры, запрашивая после каждой игры, хотят ли игроки продолжать играть. 
 После каждой игры выводится текущий счёт игроков.
 """
+class Game:
+    def __init__(self, player1: Player, player2: Player):
+        self.players = [player1, player2]
+        self.player1 = player1
+        self.player2 = player2
+        self.board = Board(3,3)
 
+    def play_one_move(self, player: Player):
+        player.make_move(self.board)
+        self.board.display_board()
+        if self.board.game_won():
+            print("Winner! Game Over")
+            return True
+        return False
 
-# board = [[Cell(row, column) for row in range(3)] for column in range(3)]
-# for item in board:
-#     for i in item:
-#         print(f"{i.row}, {i.column}", end='\t')
-#     print()
+    def play_one_game(self):
+        self.board.clear_board()
 
+        num_of_moves = 9
+        while num_of_moves:
+            if num_of_moves <= 0:
+                print('Tie!')
+                break
+
+            if self.play_one_move(self.player1):
+                self.player1.num_of_wins += 1
+                break
+            num_of_moves -= 1
+
+            if self.play_one_move(self.player2):
+                self.player2.num_of_wins += 1
+                break
+            num_of_moves -= 1
+
+        self.board.display_board()
 
 
 if __name__ == '__main__':
+    player1 = Player('p1', 0, 'x')
+    player2 = Player('p2', 0, 'o')
 
+    game = Game(player1, player2)
+    game.play_one_game()
 
     """Problem 2 code for testing:"""
     # p1_refrigerator = Refrigerator()

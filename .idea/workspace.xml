@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf815854-c5fb-4e75-8571-7441a5ba920c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminar_8/homework_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_8/homework_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_10/homework_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_10/homework_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_11/seminar_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_11/seminar_11.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,8 @@
     "Python.date_.executor": "Run",
     "Python.guess_num.executor": "Run",
     "Python.homework_1.executor": "Debug",
+    "Python.homework_10.executor": "Run",
+    "Python.homework_11.executor": "Run",
     "Python.homework_2.executor": "Debug",
     "Python.homework_3.executor": "Run",
     "Python.homework_4.executor": "Run",
@@ -39,12 +41,16 @@
     "Python.homework_7.executor": "Run",
     "Python.homework_8.executor": "Run",
     "Python.homework_9.executor": "Run",
+    "Python.magic.executor": "Run",
     "Python.main.executor": "Run",
     "Python.practice.executor": "Run",
+    "Python.practice9.executor": "Run",
     "Python.remove_duplicate_consecutive_symbols.executor": "Run",
     "Python.remove_duplicates.executor": "Run",
     "Python.riddle.executor": "Run",
     "Python.seminar1.executor": "Debug",
+    "Python.seminar10.executor": "Run",
+    "Python.seminar_11.executor": "Run",
     "Python.seminar_2.executor": "Debug",
     "Python.seminar_3.executor": "Run",
     "Python.seminar_4.executor": "Run",
@@ -65,8 +71,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.homework_9">
-    <configuration name="homework_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.magic">
+    <configuration name="homework_10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testPythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,12 +81,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_7/homework_7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_10/homework_10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="homework_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="homework_11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testPythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,12 +104,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_8/homework_8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_11/homework_11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="homework_9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="magic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testPythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,12 +127,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_11/homework_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_9/homework_9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_11/homework_11/magic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="seminar_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="seminar10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testPythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,12 +173,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_8/seminar_8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_10/seminar10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,7 +187,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="seminar_9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="seminar_11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testPythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,12 +196,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_9/seminar_9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_11/seminar_11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.homework_9" />
-        <item itemvalue="Python.seminar_9" />
-        <item itemvalue="Python.homework_8" />
-        <item itemvalue="Python.seminar_8" />
-        <item itemvalue="Python.homework_7" />
+        <item itemvalue="Python.magic" />
+        <item itemvalue="Python.homework_11" />
+        <item itemvalue="Python.seminar_11" />
+        <item itemvalue="Python.homework_10" />
+        <item itemvalue="Python.seminar10" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +249,7 @@
       <workItem from="1727349997606" duration="15941000" />
       <workItem from="1727393244107" duration="23000" />
       <workItem from="1727468157464" duration="30147000" />
-      <workItem from="1727707071498" duration="27550000" />
+      <workItem from="1727707071498" duration="144055000" />
     </task>
     <servers />
   </component>
@@ -282,6 +288,7 @@
     <SUITE FILE_PATH="coverage/testPythonProject$seminar_3.coverage" NAME="seminar_3 Coverage Results" MODIFIED="1725907197527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/testPythonProject$count_words.coverage" NAME="count_words Coverage Results" MODIFIED="1726782418477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
     <SUITE FILE_PATH="coverage/testPythonProject$seminar_6.coverage" NAME="seminar_6 Coverage Results" MODIFIED="1726617508874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testPythonProject$homework_11.coverage" NAME="homework_11 Coverage Results" MODIFIED="1728822307606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11" />
     <SUITE FILE_PATH="coverage/testPythonProject$seminar1.coverage" NAME="seminar1 Coverage Results" MODIFIED="1725036408847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/testPythonProject$seminar_9.coverage" NAME="seminar_9 Coverage Results" MODIFIED="1727828740124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_9" />
     <SUITE FILE_PATH="coverage/testPythonProject$seminar_2.coverage" NAME="seminar_2 Coverage Results" MODIFIED="1725367641004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -291,7 +298,12 @@
     <SUITE FILE_PATH="coverage/testPythonProject$homework_2.coverage" NAME="homework_2 Coverage Results" MODIFIED="1725668465998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/testPythonProject$homework_5.coverage" NAME="homework_5 Coverage Results" MODIFIED="1726527344368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/testPythonProject$unique_elements.coverage" NAME="unique_elements Coverage Results" MODIFIED="1726873374974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
-    <SUITE FILE_PATH="coverage/testPythonProject$homework_9.coverage" NAME="homework_9 Coverage Results" MODIFIED="1727833959141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_9" />
+    <SUITE FILE_PATH="coverage/testPythonProject$seminar10.coverage" NAME="seminar10 Coverage Results" MODIFIED="1728164488784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_10" />
+    <SUITE FILE_PATH="coverage/testPythonProject$homework_9.coverage" NAME="homework_9 Coverage Results" MODIFIED="1727912539582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_9" />
+    <SUITE FILE_PATH="coverage/testPythonProject$homework_10.coverage" NAME="homework_10 Coverage Results" MODIFIED="1728571185591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_10" />
+    <SUITE FILE_PATH="coverage/testPythonProject$seminar_11.coverage" NAME="seminar_11 Coverage Results" MODIFIED="1728688969466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11" />
+    <SUITE FILE_PATH="coverage/testPythonProject$magic.coverage" NAME="magic Coverage Results" MODIFIED="1728824882206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11/homework_11" />
+    <SUITE FILE_PATH="coverage/testPythonProject$practice9.coverage" NAME="practice9 Coverage Results" MODIFIED="1728090528928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_9" />
     <SUITE FILE_PATH="coverage/testPythonProject$homework_3.coverage" NAME="homework_3 Coverage Results" MODIFIED="1726092437901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/testPythonProject$homework_8.coverage" NAME="homework_8 Coverage Results" MODIFIED="1727809928931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_8" />
     <SUITE FILE_PATH="coverage/testPythonProject$remove_duplicates.coverage" NAME="remove_duplicates Coverage Results" MODIFIED="1726792543623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
