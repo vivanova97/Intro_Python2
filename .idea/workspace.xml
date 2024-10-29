@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf815854-c5fb-4e75-8571-7441a5ba920c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_practice/employee_mngment_system.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_11/seminar_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_11/seminar_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_12/seminar_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_12/seminar_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_5.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +41,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.bank_account.executor": "Run",
+    "Python.book.executor": "Run",
+    "Python.bounded_int.executor": "Run",
+    "Python.buddhist_programmer.executor": "Run",
+    "Python.car.executor": "Run",
+    "Python.chat.executor": "Run",
+    "Python.circle.executor": "Run",
     "Python.count_words.executor": "Run",
     "Python.date_.executor": "Run",
+    "Python.employee.executor": "Run",
+    "Python.fraction.executor": "Run",
+    "Python.getters_setters_practice.executor": "Run",
     "Python.guess_num.executor": "Run",
     "Python.homework_1.executor": "Debug",
     "Python.homework_10.executor": "Run",
@@ -39,18 +64,24 @@
     "Python.homework_7.executor": "Run",
     "Python.homework_8.executor": "Run",
     "Python.homework_9.executor": "Run",
+    "Python.inventory_item.executor": "Run",
     "Python.magic.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.person.executor": "Run",
     "Python.practice.executor": "Run",
     "Python.practice2.executor": "Run",
     "Python.practice3.executor": "Run",
     "Python.practice9.executor": "Run",
+    "Python.product.executor": "Run",
+    "Python.read_only.executor": "Run",
     "Python.remove_duplicate_consecutive_symbols.executor": "Run",
     "Python.remove_duplicates.executor": "Run",
     "Python.riddle.executor": "Run",
     "Python.seminar1.executor": "Debug",
     "Python.seminar10.executor": "Run",
     "Python.seminar_11.executor": "Run",
+    "Python.seminar_12.executor": "Run",
+    "Python.seminar_13.executor": "Run",
     "Python.seminar_2.executor": "Debug",
     "Python.seminar_3.executor": "Run",
     "Python.seminar_4.executor": "Run",
@@ -58,6 +89,10 @@
     "Python.seminar_6.executor": "Run",
     "Python.seminar_8.executor": "Run",
     "Python.seminar_9.executor": "Run",
+    "Python.shopping_cart.executor": "Run",
+    "Python.string_with_pattern.executor": "Run",
+    "Python.student.executor": "Run",
+    "Python.temperature.executor": "Run",
     "Python.time_mngment_system.executor": "Run",
     "Python.unique_elements.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -77,8 +112,8 @@
       <recent name="$PROJECT_DIR$/oop_practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.time_mngment_system">
-    <configuration name="magic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.chat">
+    <configuration name="bounded_int" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testPythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,12 +122,58 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_11/homework_11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop_practice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_11/homework_11/magic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_practice/bounded_int.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="buddhist_programmer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testPythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_13/homework_13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_13/homework_13/buddhist_programmer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testPythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_13/homework_13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_13/homework_13/chat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +205,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="seminar_13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testPythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,12 +214,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_13" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_practice/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seminar_13/seminar_13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,30 +228,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="testPythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar_11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_practice/practice2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practice3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="string_with_pattern" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testPythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,30 +242,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_practice/practice3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="time_mngment_system" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="testPythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop_practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_practice/time_mngment_system.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_practice/string_with_pattern.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.time_mngment_system" />
-        <item itemvalue="Python.practice3" />
-        <item itemvalue="Python.practice2" />
-        <item itemvalue="Python.practice" />
-        <item itemvalue="Python.magic" />
+        <item itemvalue="Python.chat" />
+        <item itemvalue="Python.buddhist_programmer" />
+        <item itemvalue="Python.seminar_13" />
+        <item itemvalue="Python.string_with_pattern" />
+        <item itemvalue="Python.bounded_int" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +290,9 @@
       <workItem from="1727349997606" duration="15941000" />
       <workItem from="1727393244107" duration="23000" />
       <workItem from="1727468157464" duration="30147000" />
-      <workItem from="1727707071498" duration="180916000" />
+      <workItem from="1727707071498" duration="258547000" />
+      <workItem from="1729802914674" duration="23257000" />
+      <workItem from="1729892162096" duration="44423000" />
     </task>
     <servers />
   </component>
@@ -265,11 +302,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/seminar_9/homework_9.py</url>
           <line>113</line>
@@ -287,36 +319,56 @@
     <SUITE FILE_PATH="coverage/testPythonProject$homework_1.coverage" NAME="homework_1 Coverage Results" MODIFIED="1725234383912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/testPythonProject$homework_7.coverage" NAME="homework_7 Coverage Results" MODIFIED="1727365926046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_7" />
     <SUITE FILE_PATH="coverage/testPythonProject$homework_4.coverage" NAME="homework_4 Coverage Results" MODIFIED="1726434111104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/testPythonProject$practice.coverage" NAME="practice Coverage Results" MODIFIED="1729029060092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11" />
-    <SUITE FILE_PATH="coverage/testPythonProject$seminar_4.coverage" NAME="seminar_4 Coverage Results" MODIFIED="1726181011524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testPythonProject$bank_account.coverage" NAME="bank_account Coverage Results" MODIFIED="1729736204820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
     <SUITE FILE_PATH="coverage/testPythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1725895508254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/testPythonProject$guess_num.coverage" NAME="guess_num Coverage Results" MODIFIED="1726617917250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
     <SUITE FILE_PATH="coverage/testPythonProject$seminar_3.coverage" NAME="seminar_3 Coverage Results" MODIFIED="1725907197527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/testPythonProject$count_words.coverage" NAME="count_words Coverage Results" MODIFIED="1726782418477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
-    <SUITE FILE_PATH="coverage/testPythonProject$time_mngment_system.coverage" NAME="time_mngment_system Coverage Results" MODIFIED="1729109811519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$seminar_13.coverage" NAME="seminar_13 Coverage Results" MODIFIED="1730151890956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_13" />
     <SUITE FILE_PATH="coverage/testPythonProject$seminar_6.coverage" NAME="seminar_6 Coverage Results" MODIFIED="1726617508874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/testPythonProject$homework_11.coverage" NAME="homework_11 Coverage Results" MODIFIED="1728822307606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11" />
-    <SUITE FILE_PATH="coverage/testPythonProject$seminar1.coverage" NAME="seminar1 Coverage Results" MODIFIED="1725036408847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/testPythonProject$seminar_9.coverage" NAME="seminar_9 Coverage Results" MODIFIED="1727828740124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_9" />
-    <SUITE FILE_PATH="coverage/testPythonProject$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1729098121564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11" />
-    <SUITE FILE_PATH="coverage/testPythonProject$seminar_2.coverage" NAME="seminar_2 Coverage Results" MODIFIED="1725367641004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/testPythonProject$remove_duplicate_consecutive_symbols.coverage" NAME="remove_duplicate_consecutive_symbols Coverage Results" MODIFIED="1726858858351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
-    <SUITE FILE_PATH="coverage/testPythonProject$seminar_8.coverage" NAME="seminar_8 Coverage Results" MODIFIED="1727561358137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_8" />
-    <SUITE FILE_PATH="coverage/testPythonProject$riddle.coverage" NAME="riddle Coverage Results" MODIFIED="1726708439567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
     <SUITE FILE_PATH="coverage/testPythonProject$homework_2.coverage" NAME="homework_2 Coverage Results" MODIFIED="1725668465998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/testPythonProject$homework_5.coverage" NAME="homework_5 Coverage Results" MODIFIED="1726527344368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/testPythonProject$unique_elements.coverage" NAME="unique_elements Coverage Results" MODIFIED="1726873374974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
-    <SUITE FILE_PATH="coverage/testPythonProject$seminar10.coverage" NAME="seminar10 Coverage Results" MODIFIED="1728164488784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_10" />
     <SUITE FILE_PATH="coverage/testPythonProject$homework_9.coverage" NAME="homework_9 Coverage Results" MODIFIED="1727912539582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_9" />
-    <SUITE FILE_PATH="coverage/testPythonProject$homework_10.coverage" NAME="homework_10 Coverage Results" MODIFIED="1728571185591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_10" />
-    <SUITE FILE_PATH="coverage/testPythonProject$seminar_11.coverage" NAME="seminar_11 Coverage Results" MODIFIED="1728688969466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11" />
-    <SUITE FILE_PATH="coverage/testPythonProject$magic.coverage" NAME="magic Coverage Results" MODIFIED="1728943571842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11/homework_11" />
-    <SUITE FILE_PATH="coverage/testPythonProject$practice9.coverage" NAME="practice9 Coverage Results" MODIFIED="1728090528928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_9" />
     <SUITE FILE_PATH="coverage/testPythonProject$homework_3.coverage" NAME="homework_3 Coverage Results" MODIFIED="1726092437901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/testPythonProject$practice3.coverage" NAME="practice3 Coverage Results" MODIFIED="1729108418047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$getters_setters_practice.coverage" NAME="getters_setters_practice Coverage Results" MODIFIED="1729730248267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
     <SUITE FILE_PATH="coverage/testPythonProject$homework_8.coverage" NAME="homework_8 Coverage Results" MODIFIED="1727809928931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_8" />
-    <SUITE FILE_PATH="coverage/testPythonProject$remove_duplicates.coverage" NAME="remove_duplicates Coverage Results" MODIFIED="1726792543623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
     <SUITE FILE_PATH="coverage/testPythonProject$seminar_5.coverage" NAME="seminar_5 Coverage Results" MODIFIED="1726510594998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/testPythonProject$date_.coverage" NAME="date_ Coverage Results" MODIFIED="1726709362862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
+    <SUITE FILE_PATH="coverage/testPythonProject$practice.coverage" NAME="practice Coverage Results" MODIFIED="1729029060092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11" />
+    <SUITE FILE_PATH="coverage/testPythonProject$read_only.coverage" NAME="read_only Coverage Results" MODIFIED="1729888498094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$bounded_int.coverage" NAME="bounded_int Coverage Results" MODIFIED="1729900956396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$book.coverage" NAME="book Coverage Results" MODIFIED="1729884706303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_12" />
+    <SUITE FILE_PATH="coverage/testPythonProject$seminar_4.coverage" NAME="seminar_4 Coverage Results" MODIFIED="1726181011524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testPythonProject$guess_num.coverage" NAME="guess_num Coverage Results" MODIFIED="1726617917250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
+    <SUITE FILE_PATH="coverage/testPythonProject$inventory_item.coverage" NAME="inventory_item Coverage Results" MODIFIED="1729813702873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$count_words.coverage" NAME="count_words Coverage Results" MODIFIED="1726782418477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
+    <SUITE FILE_PATH="coverage/testPythonProject$time_mngment_system.coverage" NAME="time_mngment_system Coverage Results" MODIFIED="1729124079656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$string_with_pattern.coverage" NAME="string_with_pattern Coverage Results" MODIFIED="1730063635723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$homework_11.coverage" NAME="homework_11 Coverage Results" MODIFIED="1728822307606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11" />
+    <SUITE FILE_PATH="coverage/testPythonProject$person.coverage" NAME="person Coverage Results" MODIFIED="1729883092012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_12" />
+    <SUITE FILE_PATH="coverage/testPythonProject$seminar1.coverage" NAME="seminar1 Coverage Results" MODIFIED="1725036408847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testPythonProject$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1729098121564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11" />
+    <SUITE FILE_PATH="coverage/testPythonProject$car.coverage" NAME="car Coverage Results" MODIFIED="1729781016346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$seminar_2.coverage" NAME="seminar_2 Coverage Results" MODIFIED="1725367641004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testPythonProject$remove_duplicate_consecutive_symbols.coverage" NAME="remove_duplicate_consecutive_symbols Coverage Results" MODIFIED="1726858858351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
+    <SUITE FILE_PATH="coverage/testPythonProject$buddhist_programmer.coverage" NAME="buddhist_programmer Coverage Results" MODIFIED="1730229970612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_13/homework_13" />
+    <SUITE FILE_PATH="coverage/testPythonProject$seminar_8.coverage" NAME="seminar_8 Coverage Results" MODIFIED="1727561358137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_8" />
+    <SUITE FILE_PATH="coverage/testPythonProject$riddle.coverage" NAME="riddle Coverage Results" MODIFIED="1726708439567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
+    <SUITE FILE_PATH="coverage/testPythonProject$seminar_12.coverage" NAME="seminar_12 Coverage Results" MODIFIED="1729726996389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_12" />
+    <SUITE FILE_PATH="coverage/testPythonProject$homework_5.coverage" NAME="homework_5 Coverage Results" MODIFIED="1726527344368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testPythonProject$circle.coverage" NAME="circle Coverage Results" MODIFIED="1729735951001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$unique_elements.coverage" NAME="unique_elements Coverage Results" MODIFIED="1726873374974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
+    <SUITE FILE_PATH="coverage/testPythonProject$seminar10.coverage" NAME="seminar10 Coverage Results" MODIFIED="1728164488784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_10" />
+    <SUITE FILE_PATH="coverage/testPythonProject$homework_10.coverage" NAME="homework_10 Coverage Results" MODIFIED="1728571185591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_10" />
+    <SUITE FILE_PATH="coverage/testPythonProject$seminar_11.coverage" NAME="seminar_11 Coverage Results" MODIFIED="1728688969466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11" />
+    <SUITE FILE_PATH="coverage/testPythonProject$student.coverage" NAME="student Coverage Results" MODIFIED="1729815931961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_12" />
+    <SUITE FILE_PATH="coverage/testPythonProject$magic.coverage" NAME="magic Coverage Results" MODIFIED="1728943571842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11/homework_11" />
+    <SUITE FILE_PATH="coverage/testPythonProject$practice9.coverage" NAME="practice9 Coverage Results" MODIFIED="1728090528928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_9" />
+    <SUITE FILE_PATH="coverage/testPythonProject$product.coverage" NAME="product Coverage Results" MODIFIED="1729886966820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_12" />
+    <SUITE FILE_PATH="coverage/testPythonProject$practice3.coverage" NAME="practice3 Coverage Results" MODIFIED="1729108418047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$chat.coverage" NAME="chat Coverage Results" MODIFIED="1730244129362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_13/homework_13" />
+    <SUITE FILE_PATH="coverage/testPythonProject$remove_duplicates.coverage" NAME="remove_duplicates Coverage Results" MODIFIED="1726792543623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_6" />
+    <SUITE FILE_PATH="coverage/testPythonProject$employee.coverage" NAME="employee Coverage Results" MODIFIED="1729730725951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$fraction.coverage" NAME="fraction Coverage Results" MODIFIED="1729198589720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$shopping_cart.coverage" NAME="shopping_cart Coverage Results" MODIFIED="1729560387701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
+    <SUITE FILE_PATH="coverage/testPythonProject$temperature.coverage" NAME="temperature Coverage Results" MODIFIED="1729731631386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
   </component>
 </project>

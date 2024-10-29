@@ -87,7 +87,7 @@ class Rectangle:
 
         # Create a new rectangle using the new perimeter
         new_length = self.length  # keeping the same length as the original
-        new_width = max(0, (perimeter_diff / 2) - new_length)  # adjusting width
+        new_width = max(0, int((perimeter_diff / 2) - new_length))  # adjusting width
 
         return Rectangle(new_length, new_width)
 
