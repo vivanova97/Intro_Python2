@@ -69,7 +69,7 @@ class Rectangle:
     def __add__(self, other):
         """Subtract the perimeters of two rectangles and return a new rectangle."""
         if not isinstance(other, Rectangle):
-            raise TypeError("Can only subtract two Rectangle objects.")
+            raise TypeError("Can only add two Rectangle objects.")
 
         total_perimeter = self.perimeter() + other.perimeter()
 
