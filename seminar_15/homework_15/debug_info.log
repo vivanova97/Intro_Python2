@@ -1,0 +1,5 @@
+2024-11-12 18:10:48,835 - DEBUG - Debug level message.
+2024-11-12 18:10:48,835 - INFO - Info level message.
+2024-11-12 18:10:48,835 - ERROR - Error!
+2024-11-12 18:10:48,835 - WARNING - Warning!
+2024-11-12 18:10:48,835 - CRITICAL - Critical.

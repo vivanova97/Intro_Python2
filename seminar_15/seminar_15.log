@@ -1,0 +1,5 @@
+ERROR    - 2024-11-08 18:55:21,095. In module "__main__" in line 016 function"<module>()" at 1731081321.09584 seconds: ZeroDivisionError, division by zero
+ERROR    - 2024-11-08 18:57:40,408. In module "__main__" in line 016 function"<module>()" at 1731081460.408618 seconds: ZeroDivisionError, division by zero
+ERROR    - 2024-11-08 19:01:45,072. In module "__main__" in line 016 function"<module>()" at 1731081705.072366 seconds: ZeroDivisionError, division by zero
+ERROR    - 2024-11-08 19:03:50,614. In module "__main__" in line 015 function"<module>()" at 1731081830.614644 seconds: {ZeroDivisionError('division by zero')}
+ERROR    - 2024-11-08 19:03:58,977. In module "__main__" in line 015 function"<module>()" at 1731081838.9778838 seconds: division by zero
