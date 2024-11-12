@@ -13,7 +13,7 @@ import logging
 def main():
     # Created parser and added arguments
     parser = argparse.ArgumentParser('file path info')
-    parser.add_argument('path', type=Path, help='full Path object')
+    parser.add_argument('path', type=str, help='full Path object')
     arg = parser.parse_args()
 
     # Created Path object using path argument passed in terminal
@@ -38,5 +38,7 @@ def main():
                 f"file: {path_instance.file_bool}, catalog: {path_instance.catalog_bool}, "
                 f"parent_catalog: {path_instance.parent_catalog}")
 
+if __name__ == '__main__':
+    main()
 
 

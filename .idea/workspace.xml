@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bf815854-c5fb-4e75-8571-7441a5ba920c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminar_15/homework_15/logging_with_mult_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_15/homework_15/logging_with_mult_files.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +307,7 @@
       <workItem from="1727468157464" duration="30147000" />
       <workItem from="1727707071498" duration="258547000" />
       <workItem from="1729802914674" duration="23257000" />
-      <workItem from="1729892162096" duration="149178000" />
+      <workItem from="1729892162096" duration="150305000" />
     </task>
     <servers />
   </component>
@@ -370,7 +369,7 @@
     <SUITE FILE_PATH="coverage/testPythonProject$person.coverage" NAME="person Coverage Results" MODIFIED="1729883092012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_12" />
     <SUITE FILE_PATH="coverage/testPythonProject$datetime_.coverage" NAME="datetime_ Coverage Results" MODIFIED="1731425688011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_15" />
     <SUITE FILE_PATH="coverage/testPythonProject$seminar_15.coverage" NAME="seminar_15 Coverage Results" MODIFIED="1731081838896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_15" />
-    <SUITE FILE_PATH="coverage/testPythonProject$launch_from_terminal.coverage" NAME="launch_from_terminal Coverage Results" MODIFIED="1731448298384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_15/homework_15" />
+    <SUITE FILE_PATH="coverage/testPythonProject$launch_from_terminal.coverage" NAME="launch_from_terminal Coverage Results" MODIFIED="1731448395092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_15/homework_15" />
     <SUITE FILE_PATH="coverage/testPythonProject$seminar1.coverage" NAME="seminar1 Coverage Results" MODIFIED="1725036408847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/testPythonProject$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1729098121564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seminar_11" />
     <SUITE FILE_PATH="coverage/testPythonProject$car.coverage" NAME="car Coverage Results" MODIFIED="1729781016346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_practice" />
